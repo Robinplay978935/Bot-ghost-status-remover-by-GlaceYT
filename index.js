@@ -17,6 +17,8 @@ YouTube : https://www.youtube.com/@GlaceYT
 
 */
 const { Client, GatewayIntentBits, ActivityType } = require('discord.js');
+const keep_alive = require('./keep_alive.js')
+
 require('dotenv').config();
 const express = require('express');
 const path = require('path');
